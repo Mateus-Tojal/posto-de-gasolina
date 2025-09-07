@@ -24,10 +24,10 @@ char Fun_Tcar;
 // MAIN
 int main(void) {
     // VARIÁVEIS
-    float prEta = 1, prGas = 1, prAdit = 1, qtdEta, qtdGas, qtdAdit, valRec;
-    int CAtendido, tFila = 1;
+    float prEta = 1, prGas = 1, prAdit = 1, qtdEta = 0, qtdGas = 0, qtdAdit = 0, valRec = 0;
+    int CAtendido = 0, tFila = 1;
     float etaRestante = 200, gasRestante = 200, aditRestante = 200;
-    int fila = 0, opcao, relatorio, menu, tam, cont = 1;
+    int fila = 0, opcao = 0, relatorio = 0, menu = 0, tam = 0, cont = 1;
 
     printf("--------------------------------------------------------------------------------\n\n");
     printf("Bem vindo ao programa de abastecimento do posto de gasolina! Nosso programa facilita o abastecimento para nossos clientes.\n\n");
