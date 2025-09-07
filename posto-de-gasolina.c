@@ -2,6 +2,9 @@
 #include <stdlib.h>
 #include <locale.h>
 
+//Adição de comentário para teste de pull request.
+
+
 // Struct para os carros
 struct Tcarro {
     char modelo[30];
