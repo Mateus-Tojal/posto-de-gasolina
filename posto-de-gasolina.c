@@ -101,10 +101,10 @@ int main(void) {
 
             case 3:
                 system("clear");
-                if (fila > 0)
+                if (fila > 0) {
                     fila = fila - 1;
                 printf("\nPróximo cliente chamado");
-                else
+                   }else
                     printf("\nA fila está vazia! Adicione um carro antes de abastecer.");
                 break;
 
